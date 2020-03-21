@@ -66,6 +66,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Toolkit.Win32.UI.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Toolkit.Win32.UI.SDK", "Microsoft.Toolkit.Win32.UI.Tools\Microsoft.Toolkit.Win32.UI.SDK.csproj", "{955EF618-DB95-4AF7-83C3-7CAC44543D90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSTemplates", "VSTemplates\VSTemplates.csproj", "{10323CCF-A4CD-4DE3-9155-FDE92903C198}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -304,6 +306,22 @@ Global
 		{955EF618-DB95-4AF7-83C3-7CAC44543D90}.Release|x64.Build.0 = Release|Any CPU
 		{955EF618-DB95-4AF7-83C3-7CAC44543D90}.Release|x86.ActiveCfg = Release|Any CPU
 		{955EF618-DB95-4AF7-83C3-7CAC44543D90}.Release|x86.Build.0 = Release|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Debug|ARM.Build.0 = Debug|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Debug|x64.Build.0 = Debug|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Debug|x86.Build.0 = Debug|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Release|ARM.ActiveCfg = Release|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Release|ARM.Build.0 = Release|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Release|ARM64.Build.0 = Release|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Release|x64.ActiveCfg = Release|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Release|x64.Build.0 = Release|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Release|x86.ActiveCfg = Release|Any CPU
+		{10323CCF-A4CD-4DE3-9155-FDE92903C198}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
