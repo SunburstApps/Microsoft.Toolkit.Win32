@@ -97,11 +97,6 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>ProjectTemplates\ApplicationClassLibrary</VSIXSubPath>
     </Content>
-    <Compile Include="VSPackage.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>VSPackage.resx</DependentUpon>
-    </Compile>
     <Compile Include="VSTemplatesPackage.cs" />
     <Content Include="ItemTemplates\Windows Community Toolkit\UAPResw\Resources.resw">
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -145,8 +140,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="VSPackage.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>VSPackage.Designer.cs</LastGenOutput>
       <MergeWithCTO>true</MergeWithCTO>
     </EmbeddedResource>
   </ItemGroup>
