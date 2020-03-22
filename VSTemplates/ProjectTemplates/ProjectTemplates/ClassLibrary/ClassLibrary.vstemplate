@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name Package="{9516acae-0244-4a55-b4cb-29b8e1b6587e}" ID="1104" />
+    <Description Package="{9516acae-0244-4a55-b4cb-29b8e1b6587e}" ID="1105" />
+    <TemplateID>Microsoft.Toolkit.Win32.ClassLibrary</TemplateID>
+    <TemplateGroupID>Microsoft.Toolkit.Win32</TemplateGroupID>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>48</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ClassLibrary</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <TargetPlatformName>Windows</TargetPlatformName>
+    <RequiredPlatformVersion>6.1.0</RequiredPlatformVersion>
+    <CreateInPlace>true</CreateInPlace>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+    <LanguageTag>CSharp</LanguageTag>
+    <PlatformTag>Windows</PlatformTag>
+    <ProjectTypeTag>Desktop</ProjectTypeTag>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ClassLibrary.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardData>
+    <UsePackageReferences>true</UsePackageReferences>
+  </WizardData>
+</VSTemplate>

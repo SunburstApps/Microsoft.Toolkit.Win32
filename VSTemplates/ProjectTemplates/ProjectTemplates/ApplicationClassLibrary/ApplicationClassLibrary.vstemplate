@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name Package="{9516acae-0244-4a55-b4cb-29b8e1b6587e}" ID="1102" />
+    <Description Package="{9516acae-0244-4a55-b4cb-29b8e1b6587e}" ID="1103" />
+    <TemplateID>Microsoft.Toolkit.Win32.ApplicationClassLibrary</TemplateID>
+    <TemplateGroupID>Microsoft.Toolkit.Win32</TemplateGroupID>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>48</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Application</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <TargetPlatformName>Windows</TargetPlatformName>
+    <RequiredPlatformVersion>6.1.0</RequiredPlatformVersion>
+    <CreateInPlace>true</CreateInPlace>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+    <LanguageTag>CSharp</LanguageTag>
+    <PlatformTag>Windows</PlatformTag>
+    <ProjectTypeTag>Desktop</ProjectTypeTag>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ApplicationClassLibrary.csproj" ReplaceParameters="true">
+      <ProjectItem OpenInEditor="true" ReplaceParameters="true" ItemType="ApplicationDefinition" SubType="Designer" CustomTool="MSBuild:Compile">App.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true">BlankPage.xaml.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
