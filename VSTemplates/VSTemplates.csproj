@@ -45,9 +45,48 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="ItemTemplates\Windows Community Toolkit\UAPBlankPage\BlankPage.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ItemTemplates\Windows Community Toolkit\BlankPage</VSIXSubPath>
+    </Content>
+    <Content Include="ItemTemplates\Windows Community Toolkit\UAPBlankPage\BlankPage.vstemplate">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ItemTemplates\Windows Community Toolkit\BlankPage</VSIXSubPath>
+    </Content>
+    <Content Include="ItemTemplates\Windows Community Toolkit\UAPContentDialog\ContentDialog.vstemplate">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ItemTemplates\Windows Community Toolkit\ContentDialog</VSIXSubPath>
+    </Content>
+    <Content Include="ItemTemplates\Windows Community Toolkit\UAPResourceDictionary\ResourceDictionary.vstemplate">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ItemTemplates\Windows Community Toolkit\ResourceDictionary</VSIXSubPath>
+    </Content>
+    <Content Include="ItemTemplates\Windows Community Toolkit\UAPResw\Resw.vstemplate">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ItemTemplates\Windows Community Toolkit\Resw</VSIXSubPath>
+    </Content>
+    <Content Include="ItemTemplates\Windows Community Toolkit\UAPUserControl\UserControl.vstemplate">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ItemTemplates\Windows Community Toolkit\UserControl</VSIXSubPath>
+    </Content>
     <Content Include="ProjectTemplates\ClassLibrary\Class1.cs">
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>ProjectTemplates\ClassLibrary</VSIXSubPath>
+    </Content>
+    <Content Include="ItemTemplates\Windows Community Toolkit\UAPBlankPage\BlankPage.xaml.cs">
+      <DependentUpon>BlankPage.xaml</DependentUpon>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ItemTemplates\Windows Community Toolkit\BlankPage</VSIXSubPath>
+    </Content>
+    <Content Include="ItemTemplates\Windows Community Toolkit\UAPContentDialog\ContentDialog.xaml.cs">
+      <DependentUpon>ContentDialog.xaml</DependentUpon>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ItemTemplates\Windows Community Toolkit\ContentDialog</VSIXSubPath>
+    </Content>
+    <Content Include="ItemTemplates\Windows Community Toolkit\UAPUserControl\UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ItemTemplates\Windows Community Toolkit\UserControl</VSIXSubPath>
     </Content>
     <Compile Include="VSPackage.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -55,6 +94,10 @@
       <DependentUpon>VSPackage.resx</DependentUpon>
     </Compile>
     <Compile Include="VSTemplatesPackage.cs" />
+    <Content Include="ItemTemplates\Windows Community Toolkit\UAPResw\Resources.resw">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ItemTemplates\Windows Community Toolkit\Resw</VSIXSubPath>
+    </Content>
     <None Include="Resources\nuget.png" />
   </ItemGroup>
   <ItemGroup>
@@ -85,7 +128,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ItemTemplates\" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +136,31 @@
       <LastGenOutput>VSPackage.Designer.cs</LastGenOutput>
       <MergeWithCTO>true</MergeWithCTO>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ItemTemplates\Windows Community Toolkit\UAPBlankPage\BlankPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ItemTemplates\Windows Community Toolkit\BlankPage</VSIXSubPath>
+    </Content>
+    <Content Include="ItemTemplates\Windows Community Toolkit\UAPContentDialog\ContentDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ItemTemplates\Windows Community Toolkit\ContentDialog</VSIXSubPath>
+    </Content>
+    <Content Include="ItemTemplates\Windows Community Toolkit\UAPResourceDictionary\ResourceDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ItemTemplates\Windows Community Toolkit\ResourceDictionary</VSIXSubPath>
+    </Content>
+    <Content Include="ItemTemplates\Windows Community Toolkit\UAPUserControl\UserControl1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ItemTemplates\Windows Community Toolkit\UserControl</VSIXSubPath>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
