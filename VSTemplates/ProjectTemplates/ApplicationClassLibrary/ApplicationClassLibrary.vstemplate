@@ -21,7 +21,7 @@
   <TemplateContent>
     <Project File="ApplicationClassLibrary.csproj" ReplaceParameters="true">
       <ProjectItem OpenInEditor="true" ReplaceParameters="true" ItemType="ApplicationDefinition" SubType="Designer" CustomTool="MSBuild:Compile">App.xaml</ProjectItem>
-      <ProjectItem ReplaceParameters="true">BlankPage.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">App.xaml.cs</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>
