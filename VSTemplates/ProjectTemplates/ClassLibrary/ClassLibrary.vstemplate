@@ -14,6 +14,9 @@
     <RequiredPlatformVersion>6.1.0</RequiredPlatformVersion>
     <CreateInPlace>true</CreateInPlace>
     <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+    <LanguageTag>CSharp</LanguageTag>
+    <PlatformTag>Windows</PlatformTag>
+    <ProjectTypeTag>Desktop</ProjectTypeTag>
   </TemplateData>
   <TemplateContent>
     <Project File="ClassLibrary.csproj" ReplaceParameters="true">
