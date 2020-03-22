@@ -1,21 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
   <TemplateData>
-    <Name Package="{2581426E-BF4F-4A49-A42A-20EF9D51EF49}" ID="1113" />
-    <Description Package="{2581426E-BF4F-4A49-A42A-20EF9D51EF49}" ID="1114" />
-    <Icon Package="{2581426E-BF4F-4A49-A42A-20EF9D51EF49}" ID="4007" />
-    <TemplateID>Microsoft.CS.UAP.BlankPage</TemplateID>
-    <TemplateGroupID>WinRT-Managed-UAP</TemplateGroupID>
+    <Name Package="{9516acae-0244-4a55-b4cb-29b8e1b6587e}" ID="1113" />
+    <Description Package="{9516acae-0244-4a55-b4cb-29b8e1b6587e}" ID="1114" />
+    <TemplateID>Microsoft.Toolkit.Win32.BlankPage</TemplateID>
+    <TemplateGroupID>Microsof.Toolkit.Win32</TemplateGroupID>
     <AppliesTo>CPS + CSharp + WindowsXaml</AppliesTo>
     <ProjectType>CSharp</ProjectType>
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <DefaultName>BlankPage.xaml</DefaultName>
     <ShowByDefault>false</ShowByDefault>
     <SortOrder>40</SortOrder>
     <PreviewImage>BlankPage.png</PreviewImage>
     <TargetPlatformName>Windows</TargetPlatformName>
     <RequiredPlatformVersion>6.1.0</RequiredPlatformVersion>
-    <AppIdFilter>blend</AppIdFilter>
   </TemplateData>
   <TemplateContent>
     <ProjectItem OpenInEditor="true" ReplaceParameters="true" ItemType="Page" SubType="Designer" CustomTool="MSBuild:Compile" TargetFileName="$fileinputname$.xaml">BlankPage.xaml</ProjectItem>
