@@ -69,6 +69,10 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>ItemTemplates\Windows Community Toolkit\UserControl</VSIXSubPath>
     </Content>
+    <Content Include="ProjectTemplates\ApplicationClassLibrary\ApplicationClassLibrary.vstemplate">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ProjectTemplates\ApplicationClassLibrary</VSIXSubPath>
+    </Content>
     <Content Include="ProjectTemplates\ClassLibrary\Class1.cs">
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>ProjectTemplates\ClassLibrary</VSIXSubPath>
@@ -88,6 +92,11 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>ItemTemplates\Windows Community Toolkit\UserControl</VSIXSubPath>
     </Content>
+    <Content Include="ProjectTemplates\ApplicationClassLibrary\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ProjectTemplates\ApplicationClassLibrary</VSIXSubPath>
+    </Content>
     <Compile Include="VSPackage.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -97,6 +106,10 @@
     <Content Include="ItemTemplates\Windows Community Toolkit\UAPResw\Resources.resw">
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>ItemTemplates\Windows Community Toolkit\Resw</VSIXSubPath>
+    </Content>
+    <Content Include="ProjectTemplates\ApplicationClassLibrary\ApplicationClassLibrary.csproj">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ProjectTemplates\ApplicationClassLibrary</VSIXSubPath>
     </Content>
     <None Include="Resources\nuget.png" />
   </ItemGroup>
@@ -160,6 +173,14 @@
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>ItemTemplates\Windows Community Toolkit\UserControl</VSIXSubPath>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ProjectTemplates\ApplicationClassLibrary\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>ProjectTemplates\ApplicationClassLibrary</VSIXSubPath>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
