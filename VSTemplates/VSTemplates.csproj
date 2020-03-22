@@ -69,14 +69,6 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>ItemTemplates\Windows Community Toolkit\UserControl</VSIXSubPath>
     </Content>
-    <Content Include="ProjectTemplates\ApplicationClassLibrary\ApplicationClassLibrary.vstemplate">
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <VSIXSubPath>ProjectTemplates\ApplicationClassLibrary</VSIXSubPath>
-    </Content>
-    <Content Include="ProjectTemplates\ClassLibrary\Class1.cs">
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <VSIXSubPath>ProjectTemplates\ClassLibrary</VSIXSubPath>
-    </Content>
     <Content Include="ItemTemplates\Windows Community Toolkit\UAPBlankPage\BlankPage.xaml.cs">
       <DependentUpon>BlankPage.xaml</DependentUpon>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -92,27 +84,14 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>ItemTemplates\Windows Community Toolkit\UserControl</VSIXSubPath>
     </Content>
-    <Content Include="ProjectTemplates\ApplicationClassLibrary\App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <VSIXSubPath>ProjectTemplates\ApplicationClassLibrary</VSIXSubPath>
-    </Content>
     <Compile Include="VSTemplatesPackage.cs" />
     <Content Include="ItemTemplates\Windows Community Toolkit\UAPResw\Resources.resw">
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>ItemTemplates\Windows Community Toolkit\Resw</VSIXSubPath>
     </Content>
-    <Content Include="ProjectTemplates\ApplicationClassLibrary\ApplicationClassLibrary.csproj">
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <VSIXSubPath>ProjectTemplates\ApplicationClassLibrary</VSIXSubPath>
-    </Content>
     <None Include="Resources\nuget.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ProjectTemplates\ClassLibrary\ClassLibrary.csproj">
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <VSIXSubPath>ProjectTemplates\ClassLibrary</VSIXSubPath>
-    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
@@ -129,10 +108,6 @@
     <Content Include="license.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="ProjectTemplates\ClassLibrary\ClassLibrary.vstemplate">
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <VSIXSubPath>ProjectTemplates\ClassLibrary</VSIXSubPath>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -166,14 +141,6 @@
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>ItemTemplates\Windows Community Toolkit\UserControl</VSIXSubPath>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ProjectTemplates\ApplicationClassLibrary\App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <VSIXSubPath>ProjectTemplates\ApplicationClassLibrary</VSIXSubPath>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

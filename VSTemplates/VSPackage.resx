@@ -120,18 +120,6 @@
   <data name="110" xml:space="preserve">
     <value>Windows Community Toolkit Win32 Templates</value>
   </data>
-  <data name="1102" xml:space="preserve">
-    <value>Xaml Islands Application Class Library</value>
-  </data>
-  <data name="1103" xml:space="preserve">
-    <value>This template creates a class library that is configured to create a Xaml Islands application using the Windows Community Toolkit. It includes a default Application item.</value>
-  </data>
-  <data name="1104" xml:space="preserve">
-    <value>Xaml Islands Class Library</value>
-  </data>
-  <data name="1105" xml:space="preserve">
-    <value>This template creates a project that is configured to create a Xaml Islands class library using the Windows Community Toolkit.</value>
-  </data>
   <data name="1113" xml:space="preserve">
     <value>Blank Page</value>
   </data>
