@@ -7,6 +7,7 @@ using Task = System.Threading.Tasks.Task;
 namespace VSTemplates
 {
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
+    [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 120)]
     [Guid(PackageGuidString)]
     public sealed class VSTemplatesPackage : AsyncPackage
     {
